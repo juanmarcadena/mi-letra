@@ -1,4 +1,34 @@
-# mi-letra — how Juan's handwriting fonts and form filler are built
+# mi-letra — my handwriting as a font
+
+Two fonts and a PDF form filler made from my own handwriting. Nobody wrote a sample sheet: the letters come
+from two years of class notes taken in Notability, which stores every pen stroke.
+
+![The fonts: regular, bold, italic and cursive](ejemplos/estilos.png)
+
+**Every letter has seven versions** that rotate as you type, so repeated letters never look stamped.
+
+![Repeated words come out different each time](ejemplos/variantes.png)
+
+**Each letter is an average.** The samples of a letter are grouped by how they were drawn, and the most common
+form is averaged, then blended 35% with real samples so it stays mine but reads clearly.
+
+![Ten real samples of a letter and the average of its group](ejemplos/promedio.png)
+
+**Strokes follow my pen pressure:** thin where the pen lands and lifts, fuller in between.
+
+![Pen pressure at large size](ejemplos/presion.png)
+
+**It fills forms.** Fields are found by their printed label; text shrinks or wraps to fit.
+
+![A form filled by the tool](ejemplos/formulario.png)
+
+**And writes notes in cursive,** joining the 34 pairs of letters I usually join.
+
+![A short note in the cursive style](ejemplos/nota.png)
+
+The fonts are in [`out/`](out). The images above are drawn by [`ejemplos/make.py`](ejemplos/make.py).
+
+## How it is built
 
 Built from the pen strokes in Juan's Notability notes. Nothing leaves this Mac.
 
