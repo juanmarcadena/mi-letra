@@ -1,0 +1,9 @@
+data/words.pkl
+data/bank.pkl
+data/avg_merged.pkl
+__pycache__/
+.DS_Store
+out/*.png
+out/*.pdf
+data/raw/
+data/_rebuild_test/

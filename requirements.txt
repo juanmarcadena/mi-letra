@@ -1,0 +1,9 @@
+numpy
+pillow
+pymupdf
+shapely
+fonttools
+uharfbuzz
+pyobjc-framework-Vision
+pyobjc-framework-CoreText
+pyobjc-framework-Quartz
